@@ -52,4 +52,36 @@ Where 4546 -> customize port  <br>
 *Open into browser (chrome, Firefox or any browser): localhost:4546  <br>
 *If localhost does not work use your system IP and port for example 172.81.24.5:4546  <br>
 
-  
+
+**Link Chrome Browser with hub:** <br>
+docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug
+ ![image](https://user-images.githubusercontent.com/45819133/133747604-e00254cb-03b5-4a61-b08f-1487304cd26e.png) <br>
+
+**Link Firefox browser with hub:** <br>
+docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug <br>
+![image](https://user-images.githubusercontent.com/45819133/133747704-d6ca6d3a-a90c-4614-90ea-ff23acbcca07.png) <br>
+
+**URL to download TighVNC **: https://www.tightvnc.com/ <br>
+How to View browser running virtually <br>
+Step 1: Install TightVNC  <br>
+Step 2: get running Chrome or Firefox port number. <br>
+Note: How to get port number <br>
+ Type “docker ps -a”  in cmd – you will all running port in the container <br>
+ ![image](https://user-images.githubusercontent.com/45819133/133747816-9feccd6a-7f3b-4a04-8090-938c2fdaaff8.png) <br>
+
+Step 3: TightVNC UI and which IP and port need to use here.<br>
+ ![image](https://user-images.githubusercontent.com/45819133/133747862-39330faa-0541-450a-8bc0-02679286ce8b.png) <br>
+
+Ip should be current system IP address. So, to get IP for the system <br>
+	Type ipconfig in the CMD and pick IP address. <br>
+ ![image](https://user-images.githubusercontent.com/45819133/133747934-ddf9519c-ea81-4274-b7f7-d2ca4a18ec2d.png) <br>
+
+Step 4: So, combine system IP and chrome or Firefox port from step 2 and put into TightVNC
+ ![image](https://user-images.githubusercontent.com/45819133/133747977-14bbf601-ccdf-4c7b-b66e-ef71132cd2ca.png) <br>
+
+Step 5: after click on Connect, you will get below UI, so in the password section please use default password.
+Default password: secret
+	![image](https://user-images.githubusercontent.com/45819133/133748006-55ed3758-52fe-438b-a3f8-7ee6577bba86.png) <br>
+
+ 
+
