@@ -39,3 +39,17 @@ Selenium chrome node	=> docker pull selenium/node-chrome <br>
 Selenium firefox debug	=> docker pull selenium/node-firefox-debug <br>
 Selenium chrome debug	=> docker pull selenium/node-chrome-debug <br>
 
+**How to Check running containers: type below command on CMD**<br>
+  	docker ps -a
+  
+  
+**To Run hub:**<br>
+  
+  docker run -d -p 4546:4444 --name selenium-hub selenium/hub<br>
+  ![image](https://user-images.githubusercontent.com/45819133/133747093-ce054e62-6ace-4b73-9bd6-8915ad09dea4.png) <br>
+Where 4546 -> customize port  <br>
+	4444-> selenium default port  <br>
+*Open into browser (chrome, Firefox or any browser): localhost:4546  <br>
+*If localhost does not work use your system IP and port for example 172.81.24.5:4546  <br>
+
+  
