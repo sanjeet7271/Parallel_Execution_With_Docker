@@ -79,8 +79,8 @@ Ip should be current system IP address. So, to get IP for the system <br>
 Step 4: So, combine system IP and chrome or Firefox port from step 2 and put into TightVNC
  ![image](https://user-images.githubusercontent.com/45819133/133747977-14bbf601-ccdf-4c7b-b66e-ef71132cd2ca.png) <br>
 
-Step 5: after click on Connect, you will get below UI, so in the password section please use default password.
-Default password: secret
+Step 5: after click on Connect, you will get below UI, so in the password section please use default password. <br>
+Default password: secret <br>
 	![image](https://user-images.githubusercontent.com/45819133/133748006-55ed3758-52fe-438b-a3f8-7ee6577bba86.png) <br>
 
  
